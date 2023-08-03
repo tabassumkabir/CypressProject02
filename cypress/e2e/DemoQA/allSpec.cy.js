@@ -1,0 +1,5 @@
+import './Buttons.cy'
+import './Checkbox.cy'
+import './Radiobutton.cy'
+import './Textbox.cy'
+import './WebTabels.cy'

@@ -32,7 +32,7 @@ describe('Handling Web tables',()=>{
         cy.get("#basic-addon2").click()
 
         //verify  by assertion
-        cy.get("cy.get('.rt-tbody > :nth-child(1) > .rt-tr > :nth-child(1)')").should('have.text',"Cierra")
+       cy.get(".rt-tbody>div:first-child").should('have.text',"CierraVega39cierra@example.com10000Insurance ")
     })
 
 

@@ -32,7 +32,7 @@ Cypress.Commands.add('login',(username,password)=>{
 
     cy.session([username,password],()=>{
 
-        //visit url
+    //visit url
     cy.visit("https://katalon-demo-cura.herokuapp.com/")
 
     //click on make appointment 
